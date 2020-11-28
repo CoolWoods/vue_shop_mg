@@ -4,6 +4,7 @@ body,
     height: 100%;
     margin: 0;
     padding: 0;
+    min-width: 1366px;
 }
 /* 覆盖默认样式写成global中,!important可以覆盖权重高的属性 */
 .el-breadcrumb{
@@ -19,4 +20,8 @@ body,
 }
 .el-pagination{
     margin-top: 15px;
+}
+.vcenter{
+    display: flex;
+    align-items: center;
 }

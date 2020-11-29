@@ -21,6 +21,9 @@ body,
 .el-pagination{
     margin-top: 15px;
 }
+.el-cascader-panel {
+    height: 300px !important;
+}
 .vcenter{
     display: flex;
     align-items: center;

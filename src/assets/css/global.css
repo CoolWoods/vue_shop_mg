@@ -24,7 +24,16 @@ body,
 .el-cascader-panel {
     height: 300px !important;
 }
+.el-steps{
+    margin: 15px 0;
+}
+.el-step__title{
+    font-size: 13px;
+}
 .vcenter{
     display: flex;
     align-items: center;
+}
+.ql-editor{
+    min-height: 300px;
 }

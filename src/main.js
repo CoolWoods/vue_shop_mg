@@ -33,7 +33,7 @@ Vue.component('tree-table', TreeTable)
 Vue.use(VueQuillEditor)
 
 // 全局日期过滤器
-Vue.filter('dateFormat1', function (originVal) {
+Vue.filter('dateFormat', function (originVal) {
   const dt = new Date(originVal)
   const y = dt.getFullYear()
   const m = (dt.getMonth() + 1 + '').padStart(2, '0')

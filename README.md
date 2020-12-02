@@ -22,3 +22,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## update
+### 1.0.0-beta
+update-time: 2020-12-2 16:51:39
+desc: First beta
